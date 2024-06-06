@@ -163,6 +163,7 @@
     "yargs-parser": "^20.2.9"
   },
   "scripts": {
+    "build": "[clone-disneyplus] build --output public",
     "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
