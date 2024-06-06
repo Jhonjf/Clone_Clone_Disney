@@ -163,8 +163,9 @@
     "yargs-parser": "^20.2.9"
   },
   "scripts": {
+    "build": "[my-framework] build --output public",
     "dev": "gulp watch",
-    "build": "gulp",
+    "builds": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
